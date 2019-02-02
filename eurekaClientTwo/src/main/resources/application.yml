@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: eurekaClientTwo
+
+  
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8762/eureka/
+  instance:
+    hostname: localhost
